@@ -8,7 +8,7 @@ var app = express();
 
 // ứng dụng port-scanning tự giới thiệu về mình
 app.get('/', function(req, res){
-  res.send('<h1>Tui tên là port-scanning.<br>'+
+  res.send('<h1>Tui tên là Hien.<br>'+
     'Tui chạy rất nhanh và rất nguy hiểm.<br>'+
     '<a href="http://vietjs.com/?p=9">http://vietjs.com/2014/06/01/quet-cong-mang-sieu-nhanh-su-dung-node-js/</a></h1>');
 });
