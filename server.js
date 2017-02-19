@@ -89,5 +89,5 @@ apiRoutes.get('/dashboard', passport.authenticate('jwt', { session: false }), fu
 app.use('/api', apiRoutes);
 
 // Start the server
-app.listen(port);
-console.log('Your server is running on port ' + port + '.');
+app.listen(process.env.PORT || 3000);
+console.log('server dang chay on port ' + port + '.');
